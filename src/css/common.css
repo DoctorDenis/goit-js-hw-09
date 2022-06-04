@@ -16,3 +16,50 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.button-wrapper {
+  width:max-content;
+  position: relative;
+  top: 45vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+.button-wrapper button {
+  height: 3rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(221, 218, 218);
+}
+
+.timer {
+  display: flex;
+  flex-direction: row;
+    font-family: serif;
+    margin-top: 20px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;  
+}
+
+.label {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.timer .field:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+.field .value {
+  font-size: 4rem;
+  font-weight: 700;
+
+
+}
